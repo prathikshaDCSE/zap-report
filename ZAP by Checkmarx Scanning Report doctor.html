@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAP by Checkmarx Scanning Report</title>
+<link href="./ZAP by Checkmarx Scanning Report doctor_files/normalize.css" rel="stylesheet">
+<link href="./ZAP by Checkmarx Scanning Report doctor_files/main.css" rel="stylesheet">
+<link href="./ZAP by Checkmarx Scanning Report doctor_files/colors.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>ZAP by Checkmarx Scanning Report</h1>
+		<p>
+			<span>Generated with</span> <a href="https://zaproxy.org/"><img src="./ZAP by Checkmarx Scanning Report doctor_files/zap32x32.png" alt="The ZAP logo" class="zap-logo">ZAP</a>
+			<span>on Sun 26 Oct 2025, at 09:08:55</span>
+		</p>
+		<p>ZAP Version: 2.16.1</p>
+		<p>
+			ZAP by <a href="https://checkmarx.com/">Checkmarx</a>
+		</p>
+	</header>
+
+	<main>
+
+		<section id="contents" class="contents">
+			<h2>Contents</h2>
+			<nav>
+				<ol>
+					<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#about-this-report">About This Report</a>
+						<ol>
+							
+							<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#report-parameters">Report Parameters</a></li>
+						</ol></li>
+					<data-th-block>
+					<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#summaries">Summaries</a>
+						<ol>
+							<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#risk-confidence-counts">Alert Counts by Risk and Confidence</a></li>
+							<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#site-risk-counts">Alert Counts by Site and Risk</a></li>
+							<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-counts">Alert Counts by Alert Type</a></li>
+						</ol></li>
+					<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alerts">Alerts</a>
+						<ol>
+							
+							 
+							
+							
+							
+							
+							<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alerts--risk-2-confidence-3"><span>Risk</span>=<span class="risk-level">Medium</span>, <span>Confidence</span>=<span class="confidence-level">High</span> <span>(1)</span></a></li>
+							
+							<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alerts--risk-2-confidence-2"><span>Risk</span>=<span class="risk-level">Medium</span>, <span>Confidence</span>=<span class="confidence-level">Medium</span> <span>(1)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							
+							
+							<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alerts--risk-1-confidence-2"><span>Risk</span>=<span class="risk-level">Low</span>, <span>Confidence</span>=<span class="confidence-level">Medium</span> <span>(1)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							
+							
+							<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alerts--risk-0-confidence-2"><span>Risk</span>=<span class="risk-level">Informational</span>, <span>Confidence</span>=<span class="confidence-level">Medium</span> <span>(2)</span></a></li>
+							
+							<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alerts--risk-0-confidence-1"><span>Risk</span>=<span class="risk-level">Informational</span>, <span>Confidence</span>=<span class="confidence-level">Low</span> <span>(2)</span></a></li>
+							  
+						</ol></li>
+					<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#appendix">Appendix</a>
+						<ol>
+							<li><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-types">Alert Types</a></li>
+						</ol></li>
+					</data-th-block>
+				</ol>
+			</nav>
+		</section>
+
+		<section id="about-this-report" class="about-this-report">
+			<h2>About This Report</h2>
+
+			
+
+			<section id="report-parameters">
+				<h3>Report Parameters</h3>
+				<div class="report-parameters--container">
+					<h4>Contexts</h4>
+					
+					
+					<p>No contexts were selected, so all contexts were included by default.</p>
+					  
+
+					<h4>Sites</h4>
+					
+					<p>The following sites were included:</p>
+					<ul class="sites-list">
+						<li><span class="site">https://accounts.google.com</span></li>
+						<li><span class="site">https://www.google.com</span></li>
+						<li><span class="site">https://doctor.dev-cloudcaresindia.com</span></li>
+						<li><span class="site">http://doctor.dev-cloudcaresindia.com</span></li>
+					</ul>
+					
+					<p>(If no sites were selected, all sites were included by default.)</p>
+					<p>An included site must also be within one of the included contexts for its data to be included in the report.</p>
+
+					<h4>Risk levels</h4>
+					<p>
+						<span>Included</span>:
+						 
+						<span class="included-risk-codes"><span class="risk-level">High</span>, <span class="risk-level">Medium</span>, <span class="risk-level">Low</span>, <span class="risk-level">Informational</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						 <span>None</span>
+						
+					</p>
+
+					<h4>Confidence levels</h4>
+					<p>
+						<span>Included</span>:
+						
+						
+						<span class="included-confidence-codes"><span class="confidence-level">User Confirmed</span>, <span class="confidence-level">High</span>, <span class="confidence-level">Medium</span>, <span class="confidence-level">Low</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						
+						
+						<span class="included-confidence-codes"> <span class="confidence-level">User Confirmed</span>, <span class="confidence-level">High</span>, <span class="confidence-level">Medium</span>, <span class="confidence-level">Low</span>, <span class="confidence-level">False Positive</span></span>
+					</p>
+				</div>
+			</section>
+		</section>
+
+		
+		<section>
+			
+		</section>
+		
+		<section id="summaries" class="summaries">
+			<h2>Summaries</h2>
+
+			<section id="risk-confidence-counts">
+				<h3>Alert Counts by Risk and Confidence</h3>
+				<table class="risk-confidence-counts-table">
+					<caption>
+						<p>This table shows the number of alerts for each level of risk and confidence included in the report.</p>
+						<p>(The percentages in brackets represent the count as a percentage of the total number of alerts included in the report, rounded to one decimal place.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col style="width: 14.0%"><col style="width: 14.0%"><col style="width: 14.0%"><col style="width: 14.0%">
+						<col style="width: 14.0%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="5">Confidence</th>
+						</tr>
+						<tr>
+							<th scope="col">User Confirmed</th>
+							<th scope="col">High</th>
+							<th scope="col">Medium</th>
+							<th scope="col">Low</th>
+							<th scope="col">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup" rowspan="5">Risk</th>
+							<th scope="row">High</th>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Medium</th>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(14.3%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(14.3%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(28.6%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Low</th>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(14.3%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(14.3%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Informational</th>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(28.6%)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(28.6%)</span></td>
+							<td><span>4</span><br> <span class="additional-info-percentages">(57.1%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row">Total</th>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(14.3%)</span></td>
+							<td><span>4</span><br> <span class="additional-info-percentages">(57.1%)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(28.6%)</span></td>
+							<td><span>7</span><br> <span class="additional-info-percentages">(100%)</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section id="site-risk-counts">
+				<h3>Alert Counts by Site and Risk</h3>
+				<table class="site-risk-counts-table">
+					<caption>
+						<p>This table shows, for each site for which one or more alerts were raised, the number of alerts raised at each risk level.</p>
+						<p>Alerts with a confidence level of "False Positive" have been excluded from these counts.</p>
+						<p>(The numbers in brackets are the number of alerts raised for the site at or above that risk level.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col style="width: 16.25%"><col style="width: 16.25%"><col style="width: 16.25%"><col style="width: 16.25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="4">Risk</th>
+						</tr>
+						<tr>
+							<th scope="col">
+								<span>High</span><br>  <span class="additional-info-percentages">(= High)</span>  
+							</th>
+							<th scope="col">
+								<span>Medium</span><br>   <span class="additional-info-percentages">(&gt;= Medium)</span> 
+							</th>
+							<th scope="col">
+								<span>Low</span><br>   <span class="additional-info-percentages">(&gt;= Low)</span> 
+							</th>
+							<th scope="col">
+								<span>Informational</span><br>   <span class="additional-info-percentages">(&gt;= Informational)</span> 
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup" rowspan="2">Site</th>
+							<th scope="row">https://doctor.dev-cloudcaresindia.com</th>
+							
+							<td><span>0</span><br> <span class="additional-info-percentages">(0)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(2)</span></td>
+							
+						</tr>
+						<tr>
+							
+							<th scope="row">http://doctor.dev-cloudcaresindia.com</th>
+							
+							<td><span>0</span><br> <span class="additional-info-percentages">(0)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(2)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(3)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(5)</span></td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section id="alert-type-counts">
+				<h3>Alert Counts by Alert Type</h3>
+				<table class="alert-type-counts-table">
+					<caption>
+						<p>This table shows the number of alerts of each alert type, together with the alert type's risk level.</p>
+						<p>(The percentages in brackets represent each count as a percentage, rounded to one decimal place, of the total number of alerts included in this report.)</p>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Alert type</th>
+							<th scope="col">Risk</th>
+							<th scope="col">Count</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-0">Content Security Policy (CSP) Header Not Set</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(28.6%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-1">Missing Anti-clickjacking Header</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(28.6%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-2">X-Content-Type-Options Header Missing</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>6</span><br> <span class="additional-info-percentages">(85.7%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-3">Information Disclosure - Suspicious Comments</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>3</span><br> <span class="additional-info-percentages">(42.9%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-4">Modern Web Application</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(28.6%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-5">Re-examine Cache-control Directives</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(14.3%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-6">User Agent Fuzzer</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>24</span><br> <span class="additional-info-percentages">(342.9%)</span></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th scope="row">Total</th>
+							<td></td>
+							<td>7</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+		</section>
+
+		<section id="alerts" class="alerts">
+			<h2>Alerts</h2>
+			<ol>
+				
+				 
+				 
+				
+				
+				<li id="alerts--risk-2-confidence-3">
+					<h3>
+						<span>Risk</span>=<span class="risk-level">Medium</span>, <span>Confidence</span>=<span class="confidence-level">High</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://doctor.dev-cloudcaresindia.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-0">Content Security Policy (CSP) Header Not Set</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://doctor.dev-cloudcaresindia.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tbody><tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (260 bytes)</summary>
+				
+				<pre><code>GET http://doctor.dev-cloudcaresindia.com HTTP/1.1
+host: doctor.dev-cloudcaresindia.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (327 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Length: 622
+Content-Type: text/html; charset=utf-8
+Etag: "1761284159473769"
+Last-Modified: Fri, 24 Oct 2025 05:35:59 GMT
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Date: Sun, 26 Oct 2025 03:36:27 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (622 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;link rel="icon" type="image/svg+xml" href="/vite.svg" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;title&gt;CloudCare - Doctor Portal&lt;/title&gt;
+    &lt;script type="module" crossorigin src="/assets/index-D96lzl7i.js"&gt;&lt;/script&gt;
+    &lt;link rel="modulepreload" crossorigin href="/assets/vendor-Cob1R1W1.js"&gt;
+    &lt;link rel="modulepreload" crossorigin href="/assets/ui-ogDVqF8J.js"&gt;
+    &lt;link rel="stylesheet" crossorigin href="/assets/index-BVMy-eXc.css"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="root"&gt;&lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>
+ </td>
+	</tr>
+</tbody></table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-2-confidence-2">
+					<h3>
+						<span>Risk</span>=<span class="risk-level">Medium</span>, <span>Confidence</span>=<span class="confidence-level">Medium</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://doctor.dev-cloudcaresindia.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-1">Missing Anti-clickjacking Header</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://doctor.dev-cloudcaresindia.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tbody><tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/1021.html">CWE-1021</a></span> 
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking">WSTG-v42-CLNT-09</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (260 bytes)</summary>
+				
+				<pre><code>GET http://doctor.dev-cloudcaresindia.com HTTP/1.1
+host: doctor.dev-cloudcaresindia.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (327 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Length: 622
+Content-Type: text/html; charset=utf-8
+Etag: "1761284159473769"
+Last-Modified: Fri, 24 Oct 2025 05:35:59 GMT
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Date: Sun, 26 Oct 2025 03:36:27 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (622 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;link rel="icon" type="image/svg+xml" href="/vite.svg" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;title&gt;CloudCare - Doctor Portal&lt;/title&gt;
+    &lt;script type="module" crossorigin src="/assets/index-D96lzl7i.js"&gt;&lt;/script&gt;
+    &lt;link rel="modulepreload" crossorigin href="/assets/vendor-Cob1R1W1.js"&gt;
+    &lt;link rel="modulepreload" crossorigin href="/assets/ui-ogDVqF8J.js"&gt;
+    &lt;link rel="stylesheet" crossorigin href="/assets/index-BVMy-eXc.css"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="root"&gt;&lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-frame-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p>
+
+<p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's "frame-ancestors" directive.</p>
+ </td>
+	</tr>
+</tbody></table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				
+				
+				<li id="alerts--risk-1-confidence-2">
+					<h3>
+						<span>Risk</span>=<span class="risk-level">Low</span>, <span>Confidence</span>=<span class="confidence-level">Medium</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://doctor.dev-cloudcaresindia.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-2">X-Content-Type-Options Header Missing</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://doctor.dev-cloudcaresindia.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tbody><tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p>
+
+<p>At "High" threshold this scan rule will not alert on client or server error responses.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (260 bytes)</summary>
+				
+				<pre><code>GET http://doctor.dev-cloudcaresindia.com HTTP/1.1
+host: doctor.dev-cloudcaresindia.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (327 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Length: 622
+Content-Type: text/html; charset=utf-8
+Etag: "1761284159473769"
+Last-Modified: Fri, 24 Oct 2025 05:35:59 GMT
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Date: Sun, 26 Oct 2025 03:36:27 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (622 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;link rel="icon" type="image/svg+xml" href="/vite.svg" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;title&gt;CloudCare - Doctor Portal&lt;/title&gt;
+    &lt;script type="module" crossorigin src="/assets/index-D96lzl7i.js"&gt;&lt;/script&gt;
+    &lt;link rel="modulepreload" crossorigin href="/assets/vendor-Cob1R1W1.js"&gt;
+    &lt;link rel="modulepreload" crossorigin href="/assets/ui-ogDVqF8J.js"&gt;
+    &lt;link rel="stylesheet" crossorigin href="/assets/index-BVMy-eXc.css"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="root"&gt;&lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-content-type-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to 'nosniff' for all web pages.</p>
+
+<p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>
+ </td>
+	</tr>
+</tbody></table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				
+				
+				<li id="alerts--risk-0-confidence-2">
+					<h3>
+						<span>Risk</span>=<span class="risk-level">Informational</span>, <span>Confidence</span>=<span class="confidence-level">Medium</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://doctor.dev-cloudcaresindia.com</span> <span>(2)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-4">Modern Web Application</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://doctor.dev-cloudcaresindia.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tbody><tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>No links have been found while there are scripts, which is an indication that this is a modern web application.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (260 bytes)</summary>
+				
+				<pre><code>GET http://doctor.dev-cloudcaresindia.com HTTP/1.1
+host: doctor.dev-cloudcaresindia.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (327 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Length: 622
+Content-Type: text/html; charset=utf-8
+Etag: "1761284159473769"
+Last-Modified: Fri, 24 Oct 2025 05:35:59 GMT
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Date: Sun, 26 Oct 2025 03:36:27 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (622 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;link rel="icon" type="image/svg+xml" href="/vite.svg" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;title&gt;CloudCare - Doctor Portal&lt;/title&gt;
+    &lt;script type="module" crossorigin src="/assets/index-D96lzl7i.js"&gt;&lt;/script&gt;
+    &lt;link rel="modulepreload" crossorigin href="/assets/vendor-Cob1R1W1.js"&gt;
+    &lt;link rel="modulepreload" crossorigin href="/assets/ui-ogDVqF8J.js"&gt;
+    &lt;link rel="stylesheet" crossorigin href="/assets/index-BVMy-eXc.css"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="root"&gt;&lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>&lt;script type="module" crossorigin src="/assets/index-D96lzl7i.js"&gt;&lt;/script&gt;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>This is an informational alert and so no changes are required.</p>
+ </td>
+	</tr>
+</tbody></table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-6">User Agent Fuzzer</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://doctor.dev-cloudcaresindia.com/sitemap.xml</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tbody><tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					 <span>CUSTOM_PAYLOADS = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Check for differences in response based on fuzzed User Agent (eg. mobile sites, access as a Search Engine Crawler). Compares the response statuscode and the hashcode of the response body with the original response.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (211 bytes)</summary>
+				
+				<pre><code>GET http://doctor.dev-cloudcaresindia.com/sitemap.xml HTTP/1.1
+host: doctor.dev-cloudcaresindia.com
+user-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (245 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 404 Not Found
+Age: 38
+Content-Length: 0
+Content-Type: 
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Date: Sun, 26 Oct 2025 03:37:49 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>Header User-Agent</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Attack</th>
+		<td><pre><code>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)</code></pre></td>
+	</tr>
+	
+	
+</tbody></table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-0-confidence-1">
+					<h3>
+						<span>Risk</span>=<span class="risk-level">Informational</span>, <span>Confidence</span>=<span class="confidence-level">Low</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://doctor.dev-cloudcaresindia.com</span> <span>(2)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-3">Information Disclosure - Suspicious Comments</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://doctor.dev-cloudcaresindia.com/assets/ui-ogDVqF8J.js</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tbody><tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage">WSTG-v42-INFO-05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/615.html">CWE-615</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response appears to contain suspicious comments which may help an attacker.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>The following pattern was used: \bFROM\b and was detected in likely comment: "//radix-ui.com/primitives/docs/components/${t.docsSlug}`;return c.useEffect(()=&gt;{e&amp;&amp;(document.getElementById(e)||console.error(n", see evidence field for the suspicious comment/snippet.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (333 bytes)</summary>
+				
+				<pre><code>GET https://doctor.dev-cloudcaresindia.com/assets/ui-ogDVqF8J.js HTTP/1.1
+host: doctor.dev-cloudcaresindia.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: https://doctor.dev-cloudcaresindia.com/
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (335 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Length: 52087
+Content-Type: text/javascript; charset=utf-8
+Etag: "1761284159478246"
+Last-Modified: Fri, 24 Oct 2025 05:35:59 GMT
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Date: Sun, 26 Oct 2025 03:36:29 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (52087 bytes)</summary>
+				
+				<pre><code>import{r as c,a as an,R as qe,b as cn,c as B}from"./vendor-Cob1R1W1.js";var Ze={exports:{}},le={};/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var sn=c,ln=Symbol.for("react.element"),un=Symbol.for("react.fragment"),dn=Object.prototype.hasOwnProperty,fn=sn.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,vn={key:!0,ref:!0,__self:!0,__source:!0};function Qe(e,t,n){var r,o={},a=null,s=null;n!==void 0&amp;&amp;(a=""+n),t.key!==void 0&amp;&amp;(a=""+t.key),t.ref!==void 0&amp;&amp;(s=t.ref);for(r in t)dn.call(t,r)&amp;&amp;!vn.hasOwnProperty(r)&amp;&amp;(o[r]=t[r]);if(e&amp;&amp;e.defaultProps)for(r in t=e.defaultProps,t)o[r]===void 0&amp;&amp;(o[r]=t[r]);return{$$typeof:ln,type:e,key:a,ref:s,props:o,_owner:fn.current}}le.Fragment=un;le.jsx=Qe;le.jsxs=Qe;Ze.exports=le;var h=Ze.exports;function Fe(e,t){if(typeof e=="function")return e(t);e!=null&amp;&amp;(e.current=t)}function Je(...e){return t=&gt;{let n=!1;const r=e.map(o=&gt;{const a=Fe(o,t);return!n&amp;&amp;typeof a=="function"&amp;&amp;(n=!0),a});if(n)return()=&gt;{for(let o=0;o&lt;r.length;o++){const a=r[o];typeof a=="function"?a():Fe(e[o],null)}}}}function D(...e){return c.useCallback(Je(...e),e)}function q(e){const t=mn(e),n=c.forwardRef((r,o)=&gt;{const{children:a,...s}=r,i=c.Children.toArray(a),d=i.find(pn);if(d){const u=d.props.children,l=i.map(f=&gt;f===d?c.Children.count(u)&gt;1?c.Children.only(null):c.isValidElement(u)?u.props.children:null:f);return h.jsx(t,{...s,ref:o,children:c.isValidElement(u)?c.cloneElement(u,void 0,l):null})}return h.jsx(t,{...s,ref:o,children:a})});return n.displayName=`${e}.Slot`,n}var Co=q("Slot");function mn(e){const t=c.forwardRef((n,r)=&gt;{const{children:o,...a}=n;if(c.isValidElement(o)){const s=bn(o),i=gn(a,o.props);return o.type!==c.Fragment&amp;&amp;(i.ref=r?Je(r,s):s),c.cloneElement(o,i)}return c.Children.count(o)&gt;1?c.Children.only(null):null});return t.displayName=`${e}.SlotClone`,t}var hn=Symbol("radix.slottable");function pn(e){return c.isValidElement(e)&amp;&amp;typeof e.type=="function"&amp;&amp;"__radixId"in e.type&amp;&amp;e.type.__radixId===hn}function gn(e,t){const n={...t};for(const r in t){const o=e[r],a=t[r];/^on[A-Z]/.test(r)?o&amp;&amp;a?n[r]=(...i)=&gt;{const d=a(...i);return o(...i),d}:o&amp;&amp;(n[r]=o):r==="style"?n[r]={...o,...a}:r==="className"&amp;&amp;(n[r]=[o,a].filter(Boolean).join(" "))}return{...e,...n}}function bn(e){var r,o;let t=(r=Object.getOwnPropertyDescriptor(e.props,"ref"))==null?void 0:r.get,n=t&amp;&amp;"isReactWarning"in t&amp;&amp;t.isReactWarning;return n?e.ref:(t=(o=Object.getOwnPropertyDescriptor(e,"ref"))==null?void 0:o.get,n=t&amp;&amp;"isReactWarning"in t&amp;&amp;t.isReactWarning,n?e.props.ref:e.props.ref||e.ref)}var Sn=["a","button","div","form","h2","h3","img","input","label","li","nav","ol","p","select","span","svg","ul"],I=Sn.reduce((e,t)=&gt;{const n=q(`Primitive.${t}`),r=c.forwardRef((o,a)=&gt;{const{asChild:s,...i}=o,d=s?n:t;return typeof window&lt;"u"&amp;&amp;(window[Symbol.for("radix-ui")]=!0),h.jsx(d,{...i,ref:a})});return r.displayName=`Primitive.${t}`,{...e,[t]:r}},{});function En(e,t){e&amp;&amp;an.flushSync(()=&gt;e.dispatchEvent(t))}function T(e,t,{checkForDefaultPrevented:n=!0}={}){return function(o){if(e==null||e(o),n===!1||!o.defaultPrevented)return t==null?void 0:t(o)}}function yn(e,t){const n=c.createContext(t),r=a=&gt;{const{children:s,...i}=a,d=c.useMemo(()=&gt;i,Object.values(i));return h.jsx(n.Provider,{value:d,children:s})};r.displayName=e+"Provider";function o(a){const s=c.useContext(n);if(s)return s;if(t!==void 0)return t;throw new Error(`\`${a}\` must be used within \`${e}\``)}return[r,o]}function Z(e,t=[]){let n=[];function r(a,s){const i=c.createContext(s),d=n.length;n=[...n,s];const u=f=&gt;{var b;const{scope:v,children:g,...y}=f,m=((b=v==null?void 0:v[e])==null?void 0:b[d])||i,p=c.useMemo(()=&gt;y,Object.values(y));return h.jsx(m.Provider,{value:p,children:g})};u.displayName=a+"Provider";function l(f,v){var m;const g=((m=v==null?void 0:v[e])==null?void 0:m[d])||i,y=c.useContext(g);if(y)return y;if(s!==void 0)return s;throw new Error(`\`${f}\` must be used within \`${a}\``)}return[u,l]}const o=()=&gt;{const a=n.map(s=&gt;c.createContext(s));return function(i){const d=(i==null?void 0:i[e])||a;return c.useMemo(()=&gt;({[`__scope${e}`]:{...i,[e]:d}}),[i,d])}};return o.scopeName=e,[r,wn(o,...t)]}function wn(...e){const t=e[0];if(e.length===1)return t;const n=()=&gt;{const r=e.map(o=&gt;({useScope:o(),scopeName:o.scopeName}));return function(a){const s=r.reduce((i,{useScope:d,scopeName:u})=&gt;{const f=d(a)[`__scope${u}`];return{...i,...f}},{});return c.useMemo(()=&gt;({[`__scope${t.scopeName}`]:s}),[s])}};return n.scopeName=t.scopeName,n}var G=globalThis!=null&amp;&amp;globalThis.document?c.useLayoutEffect:()=&gt;{},Cn=qe[" useId ".trim().toString()]||(()=&gt;{}),Rn=0;function K(e){const[t,n]=c.useState(Cn());return G(()=&gt;{n(r=&gt;r??String(Rn++))},[e]),t?`radix-${t}`:""}var xn=qe[" useInsertionEffect ".trim().toString()]||G;function Pe({prop:e,defaultProp:t,onChange:n=()=&gt;{},caller:r}){const[o,a,s]=Pn({defaultProp:t,onChange:n}),i=e!==void 0,d=i?e:o;{const l=c.useRef(e!==void 0);c.useEffect(()=&gt;{const f=l.current;f!==i&amp;&amp;console.warn(`${r} is changing from ${f?"controlled":"uncontrolled"} to ${i?"controlled":"uncontrolled"}. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.`),l.current=i},[i,r])}const u=c.useCallback(l=&gt;{var f;if(i){const v=Tn(l)?l(e):l;v!==e&amp;&amp;((f=s.current)==null||f.call(s,v))}else a(l)},[i,e,a,s]);return[d,u]}function Pn({defaultProp:e,onChange:t}){const[n,r]=c.useState(e),o=c.useRef(n),a=c.useRef(t);return xn(()=&gt;{a.current=t},[t]),c.useEffect(()=&gt;{var s;o.current!==n&amp;&amp;((s=a.current)==null||s.call(a,n),o.current=n)},[n,o]),[n,r,a]}function Tn(e){return typeof e=="function"}function _(e){const t=c.useRef(e);return c.useEffect(()=&gt;{t.current=e}),c.useMemo(()=&gt;(...n)=&gt;{var r;return(r=t.current)==null?void 0:r.call(t,...n)},[])}function An(e,t=globalThis==null?void 0:globalThis.document){const n=_(e);c.useEffect(()=&gt;{const r=o=&gt;{o.key==="Escape"&amp;&amp;n(o)};return t.addEventListener("keydown",r,{capture:!0}),()=&gt;t.removeEventListener("keydown",r,{capture:!0})},[n,t])}var In="DismissableLayer",Ce="dismissableLayer.update",Nn="dismissableLayer.pointerDownOutside",Dn="dismissableLayer.focusOutside",je,et=c.createContext({layers:new Set,layersWithOutsidePointerEventsDisabled:new Set,branches:new Set}),tt=c.forwardRef((e,t)=&gt;{const{disableOutsidePointerEvents:n=!1,onEscapeKeyDown:r,onPointerDownOutside:o,onFocusOutside:a,onInteractOutside:s,onDismiss:i,...d}=e,u=c.useContext(et),[l,f]=c.useState(null),v=(l==null?void 0:l.ownerDocument)??(globalThis==null?void 0:globalThis.document),[,g]=c.useState({}),y=D(t,C=&gt;f(C)),m=Array.from(u.layers),[p]=[...u.layersWithOutsidePointerEventsDisabled].slice(-1),b=m.indexOf(p),w=l?m.indexOf(l):-1,S=u.layersWithOutsidePointerEventsDisabled.size&gt;0,E=w&gt;=b,R=Mn(C=&gt;{const x=C.target,P=[...u.branches].some(N=&gt;N.contains(x));!E||P||(o==null||o(C),s==null||s(C),C.defaultPrevented||i==null||i())},v),A=Ln(C=&gt;{const x=C.target;[...u.branches].some(N=&gt;N.contains(x))||(a==null||a(C),s==null||s(C),C.defaultPrevented||i==null||i())},v);return An(C=&gt;{w===u.layers.size-1&amp;&amp;(r==null||r(C),!C.defaultPrevented&amp;&amp;i&amp;&amp;(C.preventDefault(),i()))},v),c.useEffect(()=&gt;{if(l)return n&amp;&amp;(u.layersWithOutsidePointerEventsDisabled.size===0&amp;&amp;(je=v.body.style.pointerEvents,v.body.style.pointerEvents="none"),u.layersWithOutsidePointerEventsDisabled.add(l)),u.layers.add(l),ke(),()=&gt;{n&amp;&amp;u.layersWithOutsidePointerEventsDisabled.size===1&amp;&amp;(v.body.style.pointerEvents=je)}},[l,v,n,u]),c.useEffect(()=&gt;()=&gt;{l&amp;&amp;(u.layers.delete(l),u.layersWithOutsidePointerEventsDisabled.delete(l),ke())},[l,u]),c.useEffect(()=&gt;{const C=()=&gt;g({});return document.addEventListener(Ce,C),()=&gt;document.removeEventListener(Ce,C)},[]),h.jsx(I.div,{...d,ref:y,style:{pointerEvents:S?E?"auto":"none":void 0,...e.style},onFocusCapture:T(e.onFocusCapture,A.onFocusCapture),onBlurCapture:T(e.onBlurCapture,A.onBlurCapture),onPointerDownCapture:T(e.onPointerDownCapture,R.onPointerDownCapture)})});tt.displayName=In;var _n="DismissableLayerBranch",On=c.forwardRef((e,t)=&gt;{const n=c.useContext(et),r=c.useRef(null),o=D(t,r);return c.useEffect(()=&gt;{const a=r.current;if(a)return n.branches.add(a),()=&gt;{n.branches.delete(a)}},[n.branches]),h.jsx(I.div,{...e,ref:o})});On.displayName=_n;function Mn(e,t=globalThis==null?void 0:globalThis.document){const n=_(e),r=c.useRef(!1),o=c.useRef(()=&gt;{});return c.useEffect(()=&gt;{const a=i=&gt;{if(i.target&amp;&amp;!r.current){let d=function(){nt(Nn,n,u,{discrete:!0})};const u={originalEvent:i};i.pointerType==="touch"?(t.removeEventListener("click",o.current),o.current=d,t.addEventListener("click",o.current,{once:!0})):d()}else t.removeEventListener("click",o.current);r.current=!1},s=window.setTimeout(()=&gt;{t.addEventListener("pointerdown",a)},0);return()=&gt;{window.clearTimeout(s),t.removeEventListener("pointerdown",a),t.removeEventListener("click",o.current)}},[t,n]),{onPointerDownCapture:()=&gt;r.current=!0}}function Ln(e,t=globalThis==null?void 0:globalThis.document){const n=_(e),r=c.useRef(!1);return c.useEffect(()=&gt;{const o=a=&gt;{a.target&amp;&amp;!r.current&amp;&amp;nt(Dn,n,{originalEvent:a},{discrete:!1})};return t.addEventListener("focusin",o),()=&gt;t.removeEventListener("focusin",o)},[t,n]),{onFocusCapture:()=&gt;r.current=!0,onBlurCapture:()=&gt;r.current=!1}}function ke(){const e=new CustomEvent(Ce);document.dispatchEvent(e)}function nt(e,t,n,{discrete:r}){const o=n.originalEvent.target,a=new CustomEvent(e,{bubbles:!1,cancelable:!0,detail:n});t&amp;&amp;o.addEventListener(e,t,{once:!0}),r?En(o,a):o.dispatchEvent(a)}var he="focusScope.autoFocusOnMount",pe="focusScope.autoFocusOnUnmount",We={bubbles:!1,cancelable:!0},Fn="FocusScope",rt=c.forwardRef((e,t)=&gt;{const{loop:n=!1,trapped:r=!1,onMountAutoFocus:o,onUnmountAutoFocus:a,...s}=e,[i,d]=c.useState(null),u=_(o),l=_(a),f=c.useRef(null),v=D(t,m=&gt;d(m)),g=c.useRef({paused:!1,pause(){this.paused=!0},resume(){this.paused=!1}}).current;c.useEffect(()=&gt;{if(r){let m=function(S){if(g.paused||!i)return;const E=S.target;i.contains(E)?f.current=E:W(f.current,{select:!0})},p=function(S){if(g.paused||!i)return;const E=S.relatedTarget;E!==null&amp;&amp;(i.contains(E)||W(f.current,{select:!0}))},b=function(S){if(document.activeElement===document.body)for(const R of S)R.removedNodes.length&gt;0&amp;&amp;W(i)};document.addEventListener("focusin",m),document.addEventListener("focusout",p);const w=new MutationObserver(b);return i&amp;&amp;w.observe(i,{childList:!0,subtree:!0}),()=&gt;{document.removeEventListener("focusin",m),document.removeEventListener("focusout",p),w.disconnect()}}},[r,i,g.paused]),c.useEffect(()=&gt;{if(i){Be.add(g);const m=document.activeElement;if(!i.contains(m)){const b=new CustomEvent(he,We);i.addEventListener(he,u),i.dispatchEvent(b),b.defaultPrevented||(jn(Vn(ot(i)),{select:!0}),document.activeElement===m&amp;&amp;W(i))}return()=&gt;{i.removeEventListener(he,u),setTimeout(()=&gt;{const b=new CustomEvent(pe,We);i.addEventListener(pe,l),i.dispatchEvent(b),b.defaultPrevented||W(m??document.body,{select:!0}),i.removeEventListener(pe,l),Be.remove(g)},0)}}},[i,u,l,g]);const y=c.useCallback(m=&gt;{if(!n&amp;&amp;!r||g.paused)return;const p=m.key==="Tab"&amp;&amp;!m.altKey&amp;&amp;!m.ctrlKey&amp;&amp;!m.metaKey,b=document.activeElement;if(p&amp;&amp;b){const w=m.currentTarget,[S,E]=kn(w);S&amp;&amp;E?!m.shiftKey&amp;&amp;b===E?(m.preventDefault(),n&amp;&amp;W(S,{select:!0})):m.shiftKey&amp;&amp;b===S&amp;&amp;(m.preventDefault(),n&amp;&amp;W(E,{select:!0})):b===w&amp;&amp;m.preventDefault()}},[n,r,g.paused]);return h.jsx(I.div,{tabIndex:-1,...s,ref:v,onKeyDown:y})});rt.displayName=Fn;function jn(e,{select:t=!1}={}){const n=document.activeElement;for(const r of e)if(W(r,{select:t}),document.activeElement!==n)return}function kn(e){const t=ot(e),n=Ue(t,e),r=Ue(t.reverse(),e);return[n,r]}function ot(e){const t=[],n=document.createTreeWalker(e,NodeFilter.SHOW_ELEMENT,{acceptNode:r=&gt;{const o=r.tagName==="INPUT"&amp;&amp;r.type==="hidden";return r.disabled||r.hidden||o?NodeFilter.FILTER_SKIP:r.tabIndex&gt;=0?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_SKIP}});for(;n.nextNode();)t.push(n.currentNode);return t}function Ue(e,t){for(const n of e)if(!Wn(n,{upTo:t}))return n}function Wn(e,{upTo:t}){if(getComputedStyle(e).visibility==="hidden")return!0;for(;e;){if(t!==void 0&amp;&amp;e===t)return!1;if(getComputedStyle(e).display==="none")return!0;e=e.parentElement}return!1}function Un(e){return e instanceof HTMLInputElement&amp;&amp;"select"in e}function W(e,{select:t=!1}={}){if(e&amp;&amp;e.focus){const n=document.activeElement;e.focus({preventScroll:!0}),e!==n&amp;&amp;Un(e)&amp;&amp;t&amp;&amp;e.select()}}var Be=Bn();function Bn(){let e=[];return{add(t){const n=e[0];t!==n&amp;&amp;(n==null||n.pause()),e=Ve(e,t),e.unshift(t)},remove(t){var n;e=Ve(e,t),(n=e[0])==null||n.resume()}}}function Ve(e,t){const n=[...e],r=n.indexOf(t);return r!==-1&amp;&amp;n.splice(r,1),n}function Vn(e){return e.filter(t=&gt;t.tagName!=="A")}var $n="Portal",at=c.forwardRef((e,t)=&gt;{var i;const{container:n,...r}=e,[o,a]=c.useState(!1);G(()=&gt;a(!0),[]);const s=n||o&amp;&amp;((i=globalThis==null?void 0:globalThis.document)==null?void 0:i.body);return s?cn.createPortal(h.jsx(I.div,{...r,ref:t}),s):null});at.displayName=$n;function Hn(e,t){return c.useReducer((n,r)=&gt;t[n][r]??n,e)}var k=e=&gt;{const{present:t,children:n}=e,r=zn(t),o=typeof n=="function"?n({present:r.isPresent}):c.Children.only(n),a=D(r.ref,Yn(o));return typeof n=="function"||r.isPresent?c.cloneElement(o,{ref:a}):null};k.displayName="Presence";function zn(e){const[t,n]=c.useState(),r=c.useRef(null),o=c.useRef(e),a=c.useRef("none"),s=e?"mounted":"unmounted",[i,d]=Hn(s,{mounted:{UNMOUNT:"unmounted",ANIMATION_OUT:"unmountSuspended"},unmountSuspended:{MOUNT:"mounted",ANIMATION_END:"unmounted"},unmounted:{MOUNT:"mounted"}});return c.useEffect(()=&gt;{const u=J(r.current);a.current=i==="mounted"?u:"none"},[i]),G(()=&gt;{const u=r.current,l=o.current;if(l!==e){const v=a.current,g=J(u);e?d("MOUNT"):g==="none"||(u==null?void 0:u.display)==="none"?d("UNMOUNT"):d(l&amp;&amp;v!==g?"ANIMATION_OUT":"UNMOUNT"),o.current=e}},[e,d]),G(()=&gt;{if(t){let u;const l=t.ownerDocument.defaultView??window,f=g=&gt;{const m=J(r.current).includes(CSS.escape(g.animationName));if(g.target===t&amp;&amp;m&amp;&amp;(d("ANIMATION_END"),!o.current)){const p=t.style.animationFillMode;t.style.animationFillMode="forwards",u=l.setTimeout(()=&gt;{t.style.animationFillMode==="forwards"&amp;&amp;(t.style.animationFillMode=p)})}},v=g=&gt;{g.target===t&amp;&amp;(a.current=J(r.current))};return t.addEventListener("animationstart",v),t.addEventListener("animationcancel",f),t.addEventListener("animationend",f),()=&gt;{l.clearTimeout(u),t.removeEventListener("animationstart",v),t.removeEventListener("animationcancel",f),t.removeEventListener("animationend",f)}}else d("ANIMATION_END")},[t,d]),{isPresent:["mounted","unmountSuspended"].includes(i),ref:c.useCallback(u=&gt;{r.current=u?getComputedStyle(u):null,n(u)},[])}}function J(e){return(e==null?void 0:e.animationName)||"none"}function Yn(e){var r,o;let t=(r=Object.getOwnPropertyDescriptor(e.props,"ref"))==null?void 0:r.get,n=t&amp;&amp;"isReactWarning"in t&amp;&amp;t.isReactWarning;return n?e.ref:(t=(o=Object.getOwnPropertyDescriptor(e,"ref"))==null?void 0:o.get,n=t&amp;&amp;"isReactWarning"in t&amp;&amp;t.isReactWarning,n?e.props.ref:e.props.ref||e.ref)}var ge=0;function Gn(){c.useEffect(()=&gt;{const e=document.querySelectorAll("[data-radix-focus-guard]");return document.body.insertAdjacentElement("afterbegin",e[0]??$e()),document.body.insertAdjacentElement("beforeend",e[1]??$e()),ge++,()=&gt;{ge===1&amp;&amp;document.querySelectorAll("[data-radix-focus-guard]").forEach(t=&gt;t.remove()),ge--}},[])}function $e(){const e=document.createElement("span");return e.setAttribute("data-radix-focus-guard",""),e.tabIndex=0,e.style.outline="none",e.style.opacity="0",e.style.position="fixed",e.style.pointerEvents="none",e}var F=function(){return F=Object.assign||function(t){for(var n,r=1,o=arguments.length;r&lt;o;r++){n=arguments[r];for(var a in n)Object.prototype.hasOwnProperty.call(n,a)&amp;&amp;(t[a]=n[a])}return t},F.apply(this,arguments)};function ct(e,t){var n={};for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&amp;&amp;t.indexOf(r)&lt;0&amp;&amp;(n[r]=e[r]);if(e!=null&amp;&amp;typeof Object.getOwnPropertySymbols=="function")for(var o=0,r=Object.getOwnPropertySymbols(e);o&lt;r.length;o++)t.indexOf(r[o])&lt;0&amp;&amp;Object.prototype.propertyIsEnumerable.call(e,r[o])&amp;&amp;(n[r[o]]=e[r[o]]);return n}function Xn(e,t,n){if(n||arguments.length===2)for(var r=0,o=t.length,a;r&lt;o;r++)(a||!(r in t))&amp;&amp;(a||(a=Array.prototype.slice.call(t,0,r)),a[r]=t[r]);return e.concat(a||Array.prototype.slice.call(t))}var oe="right-scroll-bar-position",ae="width-before-scroll-bar",Kn="with-scroll-bars-hidden",qn="--removed-body-scroll-bar-size";function be(e,t){return typeof e=="function"?e(t):e&amp;&amp;(e.current=t),e}function Zn(e,t){var n=c.useState(function(){return{value:e,callback:t,facade:{get current(){return n.value},set current(r){var o=n.value;o!==r&amp;&amp;(n.value=r,n.callback(r,o))}}}})[0];return n.callback=t,n.facade}var Qn=typeof window&lt;"u"?c.useLayoutEffect:c.useEffect,He=new WeakMap;function Jn(e,t){var n=Zn(null,function(r){return e.forEach(function(o){return be(o,r)})});return Qn(function(){var r=He.get(n);if(r){var o=new Set(r),a=new Set(e),s=n.current;o.forEach(function(i){a.has(i)||be(i,null)}),a.forEach(function(i){o.has(i)||be(i,s)})}He.set(n,e)},[e]),n}function er(e){return e}function tr(e,t){t===void 0&amp;&amp;(t=er);var n=[],r=!1,o={read:function(){if(r)throw new Error("Sidecar: could not `read` from an `assigned` medium. `read` could be used only with `useMedium`.");return n.length?n[n.length-1]:e},useMedium:function(a){var s=t(a,r);return n.push(s),function(){n=n.filter(function(i){return i!==s})}},assignSyncMedium:function(a){for(r=!0;n.length;){var s=n;n=[],s.forEach(a)}n={push:function(i){return a(i)},filter:function(){return n}}},assignMedium:function(a){r=!0;var s=[];if(n.length){var i=n;n=[],i.forEach(a),s=n}var d=function(){var l=s;s=[],l.forEach(a)},u=function(){return Promise.resolve().then(d)};u(),n={push:function(l){s.push(l),u()},filter:function(l){return s=s.filter(l),n}}}};return o}function nr(e){e===void 0&amp;&amp;(e={});var t=tr(null);return t.options=F({async:!0,ssr:!1},e),t}var it=function(e){var t=e.sideCar,n=ct(e,["sideCar"]);if(!t)throw new Error("Sidecar: please provide `sideCar` property to import the right car");var r=t.read();if(!r)throw new Error("Sidecar medium not found");return c.createElement(r,F({},n))};it.isSideCarExport=!0;function rr(e,t){return e.useMedium(t),it}var st=nr(),Se=function(){},ue=c.forwardRef(function(e,t){var n=c.useRef(null),r=c.useState({onScrollCapture:Se,onWheelCapture:Se,onTouchMoveCapture:Se}),o=r[0],a=r[1],s=e.forwardProps,i=e.children,d=e.className,u=e.removeScrollBar,l=e.enabled,f=e.shards,v=e.sideCar,g=e.noRelative,y=e.noIsolation,m=e.inert,p=e.allowPinchZoom,b=e.as,w=b===void 0?"div":b,S=e.gapMode,E=ct(e,["forwardProps","children","className","removeScrollBar","enabled","shards","sideCar","noRelative","noIsolation","inert","allowPinchZoom","as","gapMode"]),R=v,A=Jn([n,t]),C=F(F({},E),o);return c.createElement(c.Fragment,null,l&amp;&amp;c.createElement(R,{sideCar:st,removeScrollBar:u,shards:f,noRelative:g,noIsolation:y,inert:m,setCallbacks:a,allowPinchZoom:!!p,lockRef:n,gapMode:S}),s?c.cloneElement(c.Children.only(i),F(F({},C),{ref:A})):c.createElement(w,F({},C,{className:d,ref:A}),i))});ue.defaultProps={enabled:!0,removeScrollBar:!0,inert:!1};ue.classNames={fullWidth:ae,zeroRight:oe};var or=function(){if(typeof __webpack_nonce__&lt;"u")return __webpack_nonce__};function ar(){if(!document)return null;var e=document.createElement("style");e.type="text/css";var t=or();return t&amp;&amp;e.setAttribute("nonce",t),e}function cr(e,t){e.styleSheet?e.styleSheet.cssText=t:e.appendChild(document.createTextNode(t))}function ir(e){var t=document.head||document.getElementsByTagName("head")[0];t.appendChild(e)}var sr=function(){var e=0,t=null;return{add:function(n){e==0&amp;&amp;(t=ar())&amp;&amp;(cr(t,n),ir(t)),e++},remove:function(){e--,!e&amp;&amp;t&amp;&amp;(t.parentNode&amp;&amp;t.parentNode.removeChild(t),t=null)}}},lr=function(){var e=sr();return function(t,n){c.useEffect(function(){return e.add(t),function(){e.remove()}},[t&amp;&amp;n])}},lt=function(){var e=lr(),t=function(n){var r=n.styles,o=n.dynamic;return e(r,o),null};return t},ur={left:0,top:0,right:0,gap:0},Ee=function(e){return parseInt(e||"",10)||0},dr=function(e){var t=window.getComputedStyle(document.body),n=t[e==="padding"?"paddingLeft":"marginLeft"],r=t[e==="padding"?"paddingTop":"marginTop"],o=t[e==="padding"?"paddingRight":"marginRight"];return[Ee(n),Ee(r),Ee(o)]},fr=function(e){if(e===void 0&amp;&amp;(e="margin"),typeof window&gt;"u")return ur;var t=dr(e),n=document.documentElement.clientWidth,r=window.innerWidth;return{left:t[0],top:t[1],right:t[2],gap:Math.max(0,r-n+t[2]-t[0])}},vr=lt(),Y="data-scroll-locked",mr=function(e,t,n,r){var o=e.left,a=e.top,s=e.right,i=e.gap;return n===void 0&amp;&amp;(n="margin"),`
+  .`.concat(Kn,` {
+   overflow: hidden `).concat(r,`;
+   padding-right: `).concat(i,"px ").concat(r,`;
+  }
+  body[`).concat(Y,`] {
+    overflow: hidden `).concat(r,`;
+    overscroll-behavior: contain;
+    `).concat([t&amp;&amp;"position: relative ".concat(r,";"),n==="margin"&amp;&amp;`
+    padding-left: `.concat(o,`px;
+    padding-top: `).concat(a,`px;
+    padding-right: `).concat(s,`px;
+    margin-left:0;
+    margin-top:0;
+    margin-right: `).concat(i,"px ").concat(r,`;
+    `),n==="padding"&amp;&amp;"padding-right: ".concat(i,"px ").concat(r,";")].filter(Boolean).join(""),`
+  }
+  
+  .`).concat(oe,` {
+    right: `).concat(i,"px ").concat(r,`;
+  }
+  
+  .`).concat(ae,` {
+    margin-right: `).concat(i,"px ").concat(r,`;
+  }
+  
+  .`).concat(oe," .").concat(oe,` {
+    right: 0 `).concat(r,`;
+  }
+  
+  .`).concat(ae," .").concat(ae,` {
+    margin-right: 0 `).concat(r,`;
+  }
+  
+  body[`).concat(Y,`] {
+    `).concat(qn,": ").concat(i,`px;
+  }
+`)},ze=function(){var e=parseInt(document.body.getAttribute(Y)||"0",10);return isFinite(e)?e:0},hr=function(){c.useEffect(function(){return document.body.setAttribute(Y,(ze()+1).toString()),function(){var e=ze()-1;e&lt;=0?document.body.removeAttribute(Y):document.body.setAttribute(Y,e.toString())}},[])},pr=function(e){var t=e.noRelative,n=e.noImportant,r=e.gapMode,o=r===void 0?"margin":r;hr();var a=c.useMemo(function(){return fr(o)},[o]);return c.createElement(vr,{styles:mr(a,!t,o,n?"":"!important")})},Re=!1;if(typeof window&lt;"u")try{var ee=Object.defineProperty({},"passive",{get:function(){return Re=!0,!0}});window.addEventListener("test",ee,ee),window.removeEventListener("test",ee,ee)}catch{Re=!1}var $=Re?{passive:!1}:!1,gr=function(e){return e.tagName==="TEXTAREA"},ut=function(e,t){if(!(e instanceof Element))return!1;var n=window.getComputedStyle(e);return n[t]!=="hidden"&amp;&amp;!(n.overflowY===n.overflowX&amp;&amp;!gr(e)&amp;&amp;n[t]==="visible")},br=function(e){return ut(e,"overflowY")},Sr=function(e){return ut(e,"overflowX")},Ye=function(e,t){var n=t.ownerDocument,r=t;do{typeof ShadowRoot&lt;"u"&amp;&amp;r instanceof ShadowRoot&amp;&amp;(r=r.host);var o=dt(e,r);if(o){var a=ft(e,r),s=a[1],i=a[2];if(s&gt;i)return!0}r=r.parentNode}while(r&amp;&amp;r!==n.body);return!1},Er=function(e){var t=e.scrollTop,n=e.scrollHeight,r=e.clientHeight;return[t,n,r]},yr=function(e){var t=e.scrollLeft,n=e.scrollWidth,r=e.clientWidth;return[t,n,r]},dt=function(e,t){return e==="v"?br(t):Sr(t)},ft=function(e,t){return e==="v"?Er(t):yr(t)},wr=function(e,t){return e==="h"&amp;&amp;t==="rtl"?-1:1},Cr=function(e,t,n,r,o){var a=wr(e,window.getComputedStyle(t).direction),s=a*r,i=n.target,d=t.contains(i),u=!1,l=s&gt;0,f=0,v=0;do{if(!i)break;var g=ft(e,i),y=g[0],m=g[1],p=g[2],b=m-p-a*y;(y||b)&amp;&amp;dt(e,i)&amp;&amp;(f+=b,v+=y);var w=i.parentNode;i=w&amp;&amp;w.nodeType===Node.DOCUMENT_FRAGMENT_NODE?w.host:w}while(!d&amp;&amp;i!==document.body||d&amp;&amp;(t.contains(i)||t===i));return(l&amp;&amp;Math.abs(f)&lt;1||!l&amp;&amp;Math.abs(v)&lt;1)&amp;&amp;(u=!0),u},te=function(e){return"changedTouches"in e?[e.changedTouches[0].clientX,e.changedTouches[0].clientY]:[0,0]},Ge=function(e){return[e.deltaX,e.deltaY]},Xe=function(e){return e&amp;&amp;"current"in e?e.current:e},Rr=function(e,t){return e[0]===t[0]&amp;&amp;e[1]===t[1]},xr=function(e){return`
+  .block-interactivity-`.concat(e,` {pointer-events: none;}
+  .allow-interactivity-`).concat(e,` {pointer-events: all;}
+`)},Pr=0,H=[];function Tr(e){var t=c.useRef([]),n=c.useRef([0,0]),r=c.useRef(),o=c.useState(Pr++)[0],a=c.useState(lt)[0],s=c.useRef(e);c.useEffect(function(){s.current=e},[e]),c.useEffect(function(){if(e.inert){document.body.classList.add("block-interactivity-".concat(o));var m=Xn([e.lockRef.current],(e.shards||[]).map(Xe),!0).filter(Boolean);return m.forEach(function(p){return p.classList.add("allow-interactivity-".concat(o))}),function(){document.body.classList.remove("block-interactivity-".concat(o)),m.forEach(function(p){return p.classList.remove("allow-interactivity-".concat(o))})}}},[e.inert,e.lockRef.current,e.shards]);var i=c.useCallback(function(m,p){if("touches"in m&amp;&amp;m.touches.length===2||m.type==="wheel"&amp;&amp;m.ctrlKey)return!s.current.allowPinchZoom;var b=te(m),w=n.current,S="deltaX"in m?m.deltaX:w[0]-b[0],E="deltaY"in m?m.deltaY:w[1]-b[1],R,A=m.target,C=Math.abs(S)&gt;Math.abs(E)?"h":"v";if("touches"in m&amp;&amp;C==="h"&amp;&amp;A.type==="range")return!1;var x=Ye(C,A);if(!x)return!0;if(x?R=C:(R=C==="v"?"h":"v",x=Ye(C,A)),!x)return!1;if(!r.current&amp;&amp;"changedTouches"in m&amp;&amp;(S||E)&amp;&amp;(r.current=R),!R)return!0;var P=r.current||R;return Cr(P,p,m,P==="h"?S:E)},[]),d=c.useCallback(function(m){var p=m;if(!(!H.length||H[H.length-1]!==a)){var b="deltaY"in p?Ge(p):te(p),w=t.current.filter(function(R){return R.name===p.type&amp;&amp;(R.target===p.target||p.target===R.shadowParent)&amp;&amp;Rr(R.delta,b)})[0];if(w&amp;&amp;w.should){p.cancelable&amp;&amp;p.preventDefault();return}if(!w){var S=(s.current.shards||[]).map(Xe).filter(Boolean).filter(function(R){return R.contains(p.target)}),E=S.length&gt;0?i(p,S[0]):!s.current.noIsolation;E&amp;&amp;p.cancelable&amp;&amp;p.preventDefault()}}},[]),u=c.useCallback(function(m,p,b,w){var S={name:m,delta:p,target:b,should:w,shadowParent:Ar(b)};t.current.push(S),setTimeout(function(){t.current=t.current.filter(function(E){return E!==S})},1)},[]),l=c.useCallback(function(m){n.current=te(m),r.current=void 0},[]),f=c.useCallback(function(m){u(m.type,Ge(m),m.target,i(m,e.lockRef.current))},[]),v=c.useCallback(function(m){u(m.type,te(m),m.target,i(m,e.lockRef.current))},[]);c.useEffect(function(){return H.push(a),e.setCallbacks({onScrollCapture:f,onWheelCapture:f,onTouchMoveCapture:v}),document.addEventListener("wheel",d,$),document.addEventListener("touchmove",d,$),document.addEventListener("touchstart",l,$),function(){H=H.filter(function(m){return m!==a}),document.removeEventListener("wheel",d,$),document.removeEventListener("touchmove",d,$),document.removeEventListener("touchstart",l,$)}},[]);var g=e.removeScrollBar,y=e.inert;return c.createElement(c.Fragment,null,y?c.createElement(a,{styles:xr(o)}):null,g?c.createElement(pr,{noRelative:e.noRelative,gapMode:e.gapMode}):null)}function Ar(e){for(var t=null;e!==null;)e instanceof ShadowRoot&amp;&amp;(t=e.host,e=e.host),e=e.parentNode;return t}const Ir=rr(st,Tr);var vt=c.forwardRef(function(e,t){return c.createElement(ue,F({},e,{ref:t,sideCar:Ir}))});vt.classNames=ue.classNames;var Nr=function(e){if(typeof document&gt;"u")return null;var t=Array.isArray(e)?e[0]:e;return t.ownerDocument.body},z=new WeakMap,ne=new WeakMap,re={},ye=0,mt=function(e){return e&amp;&amp;(e.host||mt(e.parentNode))},Dr=function(e,t){return t.map(function(n){if(e.contains(n))return n;var r=mt(n);return r&amp;&amp;e.contains(r)?r:(console.error("aria-hidden",n,"in not contained inside",e,". Doing nothing"),null)}).filter(function(n){return!!n})},_r=function(e,t,n,r){var o=Dr(t,Array.isArray(e)?e:[e]);re[n]||(re[n]=new WeakMap);var a=re[n],s=[],i=new Set,d=new Set(o),u=function(f){!f||i.has(f)||(i.add(f),u(f.parentNode))};o.forEach(u);var l=function(f){!f||d.has(f)||Array.prototype.forEach.call(f.children,function(v){if(i.has(v))l(v);else try{var g=v.getAttribute(r),y=g!==null&amp;&amp;g!=="false",m=(z.get(v)||0)+1,p=(a.get(v)||0)+1;z.set(v,m),a.set(v,p),s.push(v),m===1&amp;&amp;y&amp;&amp;ne.set(v,!0),p===1&amp;&amp;v.setAttribute(n,"true"),y||v.setAttribute(r,"true")}catch(b){console.error("aria-hidden: cannot operate on ",v,b)}})};return l(t),i.clear(),ye++,function(){s.forEach(function(f){var v=z.get(f)-1,g=a.get(f)-1;z.set(f,v),a.set(f,g),v||(ne.has(f)||f.removeAttribute(r),ne.delete(f)),g||f.removeAttribute(n)}),ye--,ye||(z=new WeakMap,z=new WeakMap,ne=new WeakMap,re={})}},Or=function(e,t,n){n===void 0&amp;&amp;(n="data-aria-hidden");var r=Array.from(Array.isArray(e)?e:[e]),o=Nr(e);return o?(r.push.apply(r,Array.from(o.querySelectorAll("[aria-live], script"))),_r(r,o,n,"aria-hidden")):function(){return null}},de="Dialog",[ht]=Z(de),[Mr,M]=ht(de),pt=e=&gt;{const{__scopeDialog:t,children:n,open:r,defaultOpen:o,onOpenChange:a,modal:s=!0}=e,i=c.useRef(null),d=c.useRef(null),[u,l]=Pe({prop:r,defaultProp:o??!1,onChange:a,caller:de});return h.jsx(Mr,{scope:t,triggerRef:i,contentRef:d,contentId:K(),titleId:K(),descriptionId:K(),open:u,onOpenChange:l,onOpenToggle:c.useCallback(()=&gt;l(f=&gt;!f),[l]),modal:s,children:n})};pt.displayName=de;var gt="DialogTrigger",Lr=c.forwardRef((e,t)=&gt;{const{__scopeDialog:n,...r}=e,o=M(gt,n),a=D(t,o.triggerRef);return h.jsx(I.button,{type:"button","aria-haspopup":"dialog","aria-expanded":o.open,"aria-controls":o.contentId,"data-state":Ie(o.open),...r,ref:a,onClick:T(e.onClick,o.onOpenToggle)})});Lr.displayName=gt;var Te="DialogPortal",[Fr,bt]=ht(Te,{forceMount:void 0}),St=e=&gt;{const{__scopeDialog:t,forceMount:n,children:r,container:o}=e,a=M(Te,t);return h.jsx(Fr,{scope:t,forceMount:n,children:c.Children.map(r,s=&gt;h.jsx(k,{present:n||a.open,children:h.jsx(at,{asChild:!0,container:o,children:s})}))})};St.displayName=Te;var ce="DialogOverlay",Et=c.forwardRef((e,t)=&gt;{const n=bt(ce,e.__scopeDialog),{forceMount:r=n.forceMount,...o}=e,a=M(ce,e.__scopeDialog);return a.modal?h.jsx(k,{present:r||a.open,children:h.jsx(kr,{...o,ref:t})}):null});Et.displayName=ce;var jr=q("DialogOverlay.RemoveScroll"),kr=c.forwardRef((e,t)=&gt;{const{__scopeDialog:n,...r}=e,o=M(ce,n);return h.jsx(vt,{as:jr,allowPinchZoom:!0,shards:[o.contentRef],children:h.jsx(I.div,{"data-state":Ie(o.open),...r,ref:t,style:{pointerEvents:"auto",...r.style}})})}),V="DialogContent",yt=c.forwardRef((e,t)=&gt;{const n=bt(V,e.__scopeDialog),{forceMount:r=n.forceMount,...o}=e,a=M(V,e.__scopeDialog);return h.jsx(k,{present:r||a.open,children:a.modal?h.jsx(Wr,{...o,ref:t}):h.jsx(Ur,{...o,ref:t})})});yt.displayName=V;var Wr=c.forwardRef((e,t)=&gt;{const n=M(V,e.__scopeDialog),r=c.useRef(null),o=D(t,n.contentRef,r);return c.useEffect(()=&gt;{const a=r.current;if(a)return Or(a)},[]),h.jsx(wt,{...e,ref:o,trapFocus:n.open,disableOutsidePointerEvents:!0,onCloseAutoFocus:T(e.onCloseAutoFocus,a=&gt;{var s;a.preventDefault(),(s=n.triggerRef.current)==null||s.focus()}),onPointerDownOutside:T(e.onPointerDownOutside,a=&gt;{const s=a.detail.originalEvent,i=s.button===0&amp;&amp;s.ctrlKey===!0;(s.button===2||i)&amp;&amp;a.preventDefault()}),onFocusOutside:T(e.onFocusOutside,a=&gt;a.preventDefault())})}),Ur=c.forwardRef((e,t)=&gt;{const n=M(V,e.__scopeDialog),r=c.useRef(!1),o=c.useRef(!1);return h.jsx(wt,{...e,ref:t,trapFocus:!1,disableOutsidePointerEvents:!1,onCloseAutoFocus:a=&gt;{var s,i;(s=e.onCloseAutoFocus)==null||s.call(e,a),a.defaultPrevented||(r.current||(i=n.triggerRef.current)==null||i.focus(),a.preventDefault()),r.current=!1,o.current=!1},onInteractOutside:a=&gt;{var d,u;(d=e.onInteractOutside)==null||d.call(e,a),a.defaultPrevented||(r.current=!0,a.detail.originalEvent.type==="pointerdown"&amp;&amp;(o.current=!0));const s=a.target;((u=n.triggerRef.current)==null?void 0:u.contains(s))&amp;&amp;a.preventDefault(),a.detail.originalEvent.type==="focusin"&amp;&amp;o.current&amp;&amp;a.preventDefault()}})}),wt=c.forwardRef((e,t)=&gt;{const{__scopeDialog:n,trapFocus:r,onOpenAutoFocus:o,onCloseAutoFocus:a,...s}=e,i=M(V,n),d=c.useRef(null),u=D(t,d);return Gn(),h.jsxs(h.Fragment,{children:[h.jsx(rt,{asChild:!0,loop:!0,trapped:r,onMountAutoFocus:o,onUnmountAutoFocus:a,children:h.jsx(tt,{role:"dialog",id:i.contentId,"aria-describedby":i.descriptionId,"aria-labelledby":i.titleId,"data-state":Ie(i.open),...s,ref:u,onDismiss:()=&gt;i.onOpenChange(!1)})}),h.jsxs(h.Fragment,{children:[h.jsx(Br,{titleId:i.titleId}),h.jsx($r,{contentRef:d,descriptionId:i.descriptionId})]})]})}),Ae="DialogTitle",Ct=c.forwardRef((e,t)=&gt;{const{__scopeDialog:n,...r}=e,o=M(Ae,n);return h.jsx(I.h2,{id:o.titleId,...r,ref:t})});Ct.displayName=Ae;var Rt="DialogDescription",xt=c.forwardRef((e,t)=&gt;{const{__scopeDialog:n,...r}=e,o=M(Rt,n);return h.jsx(I.p,{id:o.descriptionId,...r,ref:t})});xt.displayName=Rt;var Pt="DialogClose",Tt=c.forwardRef((e,t)=&gt;{const{__scopeDialog:n,...r}=e,o=M(Pt,n);return h.jsx(I.button,{type:"button",...r,ref:t,onClick:T(e.onClick,()=&gt;o.onOpenChange(!1))})});Tt.displayName=Pt;function Ie(e){return e?"open":"closed"}var At="DialogTitleWarning",[Ro,It]=yn(At,{contentName:V,titleName:Ae,docsSlug:"dialog"}),Br=({titleId:e})=&gt;{const t=It(At),n=`\`${t.contentName}\` requires a \`${t.titleName}\` for the component to be accessible for screen reader users.
+
+If you want to hide the \`${t.titleName}\`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/${t.docsSlug}`;return c.useEffect(()=&gt;{e&amp;&amp;(document.getElementById(e)||console.error(n))},[n,e]),null},Vr="DialogDescriptionWarning",$r=({contentRef:e,descriptionId:t})=&gt;{const r=`Warning: Missing \`Description\` or \`aria-describedby={undefined}\` for {${It(Vr).contentName}}.`;return c.useEffect(()=&gt;{var a;const o=(a=e.current)==null?void 0:a.getAttribute("aria-describedby");t&amp;&amp;o&amp;&amp;(document.getElementById(t)||console.warn(r))},[r,e,t]),null},xo=pt,Po=St,To=Et,Ao=yt,Io=Ct,No=xt,Do=Tt,Hr=c.createContext(void 0);function Ne(e){const t=c.useContext(Hr);return e||t||"ltr"}function zr(e,[t,n]){return Math.min(n,Math.max(t,e))}function Yr(e,t){return c.useReducer((n,r)=&gt;t[n][r]??n,e)}var De="ScrollArea",[Nt]=Z(De),[Gr,O]=Nt(De),Dt=c.forwardRef((e,t)=&gt;{const{__scopeScrollArea:n,type:r="hover",dir:o,scrollHideDelay:a=600,...s}=e,[i,d]=c.useState(null),[u,l]=c.useState(null),[f,v]=c.useState(null),[g,y]=c.useState(null),[m,p]=c.useState(null),[b,w]=c.useState(0),[S,E]=c.useState(0),[R,A]=c.useState(!1),[C,x]=c.useState(!1),P=D(t,L=&gt;d(L)),N=Ne(o);return h.jsx(Gr,{scope:n,type:r,dir:N,scrollHideDelay:a,scrollArea:i,viewport:u,onViewportChange:l,content:f,onContentChange:v,scrollbarX:g,onScrollbarXChange:y,scrollbarXEnabled:R,onScrollbarXEnabledChange:A,scrollbarY:m,onScrollbarYChange:p,scrollbarYEnabled:C,onScrollbarYEnabledChange:x,onCornerWidthChange:w,onCornerHeightChange:E,children:h.jsx(I.div,{dir:N,...s,ref:P,style:{position:"relative","--radix-scroll-area-corner-width":b+"px","--radix-scroll-area-corner-height":S+"px",...e.style}})})});Dt.displayName=De;var _t="ScrollAreaViewport",Ot=c.forwardRef((e,t)=&gt;{const{__scopeScrollArea:n,children:r,nonce:o,...a}=e,s=O(_t,n),i=c.useRef(null),d=D(t,i,s.onViewportChange);return h.jsxs(h.Fragment,{children:[h.jsx("style",{dangerouslySetInnerHTML:{__html:"[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}"},nonce:o}),h.jsx(I.div,{"data-radix-scroll-area-viewport":"",...a,ref:d,style:{overflowX:s.scrollbarXEnabled?"scroll":"hidden",overflowY:s.scrollbarYEnabled?"scroll":"hidden",...e.style},children:h.jsx("div",{ref:s.onContentChange,style:{minWidth:"100%",display:"table"},children:r})})]})});Ot.displayName=_t;var j="ScrollAreaScrollbar",Xr=c.forwardRef((e,t)=&gt;{const{forceMount:n,...r}=e,o=O(j,e.__scopeScrollArea),{onScrollbarXEnabledChange:a,onScrollbarYEnabledChange:s}=o,i=e.orientation==="horizontal";return c.useEffect(()=&gt;(i?a(!0):s(!0),()=&gt;{i?a(!1):s(!1)}),[i,a,s]),o.type==="hover"?h.jsx(Kr,{...r,ref:t,forceMount:n}):o.type==="scroll"?h.jsx(qr,{...r,ref:t,forceMount:n}):o.type==="auto"?h.jsx(Mt,{...r,ref:t,forceMount:n}):o.type==="always"?h.jsx(_e,{...r,ref:t}):null});Xr.displayName=j;var Kr=c.forwardRef((e,t)=&gt;{const{forceMount:n,...r}=e,o=O(j,e.__scopeScrollArea),[a,s]=c.useState(!1);return c.useEffect(()=&gt;{const i=o.scrollArea;let d=0;if(i){const u=()=&gt;{window.clearTimeout(d),s(!0)},l=()=&gt;{d=window.setTimeout(()=&gt;s(!1),o.scrollHideDelay)};return i.addEventListener("pointerenter",u),i.addEventListener("pointerleave",l),()=&gt;{window.clearTimeout(d),i.removeEventListener("pointerenter",u),i.removeEventListener("pointerleave",l)}}},[o.scrollArea,o.scrollHideDelay]),h.jsx(k,{present:n||a,children:h.jsx(Mt,{"data-state":a?"visible":"hidden",...r,ref:t})})}),qr=c.forwardRef((e,t)=&gt;{const{forceMount:n,...r}=e,o=O(j,e.__scopeScrollArea),a=e.orientation==="horizontal",s=ve(()=&gt;d("SCROLL_END"),100),[i,d]=Yr("hidden",{hidden:{SCROLL:"scrolling"},scrolling:{SCROLL_END:"idle",POINTER_ENTER:"interacting"},interacting:{SCROLL:"interacting",POINTER_LEAVE:"idle"},idle:{HIDE:"hidden",SCROLL:"scrolling",POINTER_ENTER:"interacting"}});return c.useEffect(()=&gt;{if(i==="idle"){const u=window.setTimeout(()=&gt;d("HIDE"),o.scrollHideDelay);return()=&gt;window.clearTimeout(u)}},[i,o.scrollHideDelay,d]),c.useEffect(()=&gt;{const u=o.viewport,l=a?"scrollLeft":"scrollTop";if(u){let f=u[l];const v=()=&gt;{const g=u[l];f!==g&amp;&amp;(d("SCROLL"),s()),f=g};return u.addEventListener("scroll",v),()=&gt;u.removeEventListener("scroll",v)}},[o.viewport,a,d,s]),h.jsx(k,{present:n||i!=="hidden",children:h.jsx(_e,{"data-state":i==="hidden"?"hidden":"visible",...r,ref:t,onPointerEnter:T(e.onPointerEnter,()=&gt;d("POINTER_ENTER")),onPointerLeave:T(e.onPointerLeave,()=&gt;d("POINTER_LEAVE"))})})}),Mt=c.forwardRef((e,t)=&gt;{const n=O(j,e.__scopeScrollArea),{forceMount:r,...o}=e,[a,s]=c.useState(!1),i=e.orientation==="horizontal",d=ve(()=&gt;{if(n.viewport){const u=n.viewport.offsetWidth&lt;n.viewport.scrollWidth,l=n.viewport.offsetHeight&lt;n.viewport.scrollHeight;s(i?u:l)}},10);return X(n.viewport,d),X(n.content,d),h.jsx(k,{present:r||a,children:h.jsx(_e,{"data-state":a?"visible":"hidden",...o,ref:t})})}),_e=c.forwardRef((e,t)=&gt;{const{orientation:n="vertical",...r}=e,o=O(j,e.__scopeScrollArea),a=c.useRef(null),s=c.useRef(0),[i,d]=c.useState({content:0,viewport:0,scrollbar:{size:0,paddingStart:0,paddingEnd:0}}),u=kt(i.viewport,i.content),l={...r,sizes:i,onSizesChange:d,hasThumb:u&gt;0&amp;&amp;u&lt;1,onThumbChange:v=&gt;a.current=v,onThumbPointerUp:()=&gt;s.current=0,onThumbPointerDown:v=&gt;s.current=v};function f(v,g){return ro(v,s.current,i,g)}return n==="horizontal"?h.jsx(Zr,{...l,ref:t,onThumbPositionChange:()=&gt;{if(o.viewport&amp;&amp;a.current){const v=o.viewport.scrollLeft,g=Ke(v,i,o.dir);a.current.style.transform=`translate3d(${g}px, 0, 0)`}},onWheelScroll:v=&gt;{o.viewport&amp;&amp;(o.viewport.scrollLeft=v)},onDragScroll:v=&gt;{o.viewport&amp;&amp;(o.viewport.scrollLeft=f(v,o.dir))}}):n==="vertical"?h.jsx(Qr,{...l,ref:t,onThumbPositionChange:()=&gt;{if(o.viewport&amp;&amp;a.current){const v=o.viewport.scrollTop,g=Ke(v,i);a.current.style.transform=`translate3d(0, ${g}px, 0)`}},onWheelScroll:v=&gt;{o.viewport&amp;&amp;(o.viewport.scrollTop=v)},onDragScroll:v=&gt;{o.viewport&amp;&amp;(o.viewport.scrollTop=f(v))}}):null}),Zr=c.forwardRef((e,t)=&gt;{const{sizes:n,onSizesChange:r,...o}=e,a=O(j,e.__scopeScrollArea),[s,i]=c.useState(),d=c.useRef(null),u=D(t,d,a.onScrollbarXChange);return c.useEffect(()=&gt;{d.current&amp;&amp;i(getComputedStyle(d.current))},[d]),h.jsx(Ft,{"data-orientation":"horizontal",...o,ref:u,sizes:n,style:{bottom:0,left:a.dir==="rtl"?"var(--radix-scroll-area-corner-width)":0,right:a.dir==="ltr"?"var(--radix-scroll-area-corner-width)":0,"--radix-scroll-area-thumb-width":fe(n)+"px",...e.style},onThumbPointerDown:l=&gt;e.onThumbPointerDown(l.x),onDragScroll:l=&gt;e.onDragScroll(l.x),onWheelScroll:(l,f)=&gt;{if(a.viewport){const v=a.viewport.scrollLeft+l.deltaX;e.onWheelScroll(v),Ut(v,f)&amp;&amp;l.preventDefault()}},onResize:()=&gt;{d.current&amp;&amp;a.viewport&amp;&amp;s&amp;&amp;r({content:a.viewport.scrollWidth,viewport:a.viewport.offsetWidth,scrollbar:{size:d.current.clientWidth,paddingStart:se(s.paddingLeft),paddingEnd:se(s.paddingRight)}})}})}),Qr=c.forwardRef((e,t)=&gt;{const{sizes:n,onSizesChange:r,...o}=e,a=O(j,e.__scopeScrollArea),[s,i]=c.useState(),d=c.useRef(null),u=D(t,d,a.onScrollbarYChange);return c.useEffect(()=&gt;{d.current&amp;&amp;i(getComputedStyle(d.current))},[d]),h.jsx(Ft,{"data-orientation":"vertical",...o,ref:u,sizes:n,style:{top:0,right:a.dir==="ltr"?0:void 0,left:a.dir==="rtl"?0:void 0,bottom:"var(--radix-scroll-area-corner-height)","--radix-scroll-area-thumb-height":fe(n)+"px",...e.style},onThumbPointerDown:l=&gt;e.onThumbPointerDown(l.y),onDragScroll:l=&gt;e.onDragScroll(l.y),onWheelScroll:(l,f)=&gt;{if(a.viewport){const v=a.viewport.scrollTop+l.deltaY;e.onWheelScroll(v),Ut(v,f)&amp;&amp;l.preventDefault()}},onResize:()=&gt;{d.current&amp;&amp;a.viewport&amp;&amp;s&amp;&amp;r({content:a.viewport.scrollHeight,viewport:a.viewport.offsetHeight,scrollbar:{size:d.current.clientHeight,paddingStart:se(s.paddingTop),paddingEnd:se(s.paddingBottom)}})}})}),[Jr,Lt]=Nt(j),Ft=c.forwardRef((e,t)=&gt;{const{__scopeScrollArea:n,sizes:r,hasThumb:o,onThumbChange:a,onThumbPointerUp:s,onThumbPointerDown:i,onThumbPositionChange:d,onDragScroll:u,onWheelScroll:l,onResize:f,...v}=e,g=O(j,n),[y,m]=c.useState(null),p=D(t,P=&gt;m(P)),b=c.useRef(null),w=c.useRef(""),S=g.viewport,E=r.content-r.viewport,R=_(l),A=_(d),C=ve(f,10);function x(P){if(b.current){const N=P.clientX-b.current.left,L=P.clientY-b.current.top;u({x:N,y:L})}}return c.useEffect(()=&gt;{const P=N=&gt;{const L=N.target;(y==null?void 0:y.contains(L))&amp;&amp;R(N,E)};return document.addEventListener("wheel",P,{passive:!1}),()=&gt;document.removeEventListener("wheel",P,{passive:!1})},[S,y,E,R]),c.useEffect(A,[r,A]),X(y,C),X(g.content,C),h.jsx(Jr,{scope:n,scrollbar:y,hasThumb:o,onThumbChange:_(a),onThumbPointerUp:_(s),onThumbPositionChange:A,onThumbPointerDown:_(i),children:h.jsx(I.div,{...v,ref:p,style:{position:"absolute",...v.style},onPointerDown:T(e.onPointerDown,P=&gt;{P.button===0&amp;&amp;(P.target.setPointerCapture(P.pointerId),b.current=y.getBoundingClientRect(),w.current=document.body.style.webkitUserSelect,document.body.style.webkitUserSelect="none",g.viewport&amp;&amp;(g.viewport.style.scrollBehavior="auto"),x(P))}),onPointerMove:T(e.onPointerMove,x),onPointerUp:T(e.onPointerUp,P=&gt;{const N=P.target;N.hasPointerCapture(P.pointerId)&amp;&amp;N.releasePointerCapture(P.pointerId),document.body.style.webkitUserSelect=w.current,g.viewport&amp;&amp;(g.viewport.style.scrollBehavior=""),b.current=null})})})}),ie="ScrollAreaThumb",eo=c.forwardRef((e,t)=&gt;{const{forceMount:n,...r}=e,o=Lt(ie,e.__scopeScrollArea);return h.jsx(k,{present:n||o.hasThumb,children:h.jsx(to,{ref:t,...r})})}),to=c.forwardRef((e,t)=&gt;{const{__scopeScrollArea:n,style:r,...o}=e,a=O(ie,n),s=Lt(ie,n),{onThumbPositionChange:i}=s,d=D(t,f=&gt;s.onThumbChange(f)),u=c.useRef(void 0),l=ve(()=&gt;{u.current&amp;&amp;(u.current(),u.current=void 0)},100);return c.useEffect(()=&gt;{const f=a.viewport;if(f){const v=()=&gt;{if(l(),!u.current){const g=oo(f,i);u.current=g,i()}};return i(),f.addEventListener("scroll",v),()=&gt;f.removeEventListener("scroll",v)}},[a.viewport,l,i]),h.jsx(I.div,{"data-state":s.hasThumb?"visible":"hidden",...o,ref:d,style:{width:"var(--radix-scroll-area-thumb-width)",height:"var(--radix-scroll-area-thumb-height)",...r},onPointerDownCapture:T(e.onPointerDownCapture,f=&gt;{const g=f.target.getBoundingClientRect(),y=f.clientX-g.left,m=f.clientY-g.top;s.onThumbPointerDown({x:y,y:m})}),onPointerUp:T(e.onPointerUp,s.onThumbPointerUp)})});eo.displayName=ie;var Oe="ScrollAreaCorner",jt=c.forwardRef((e,t)=&gt;{const n=O(Oe,e.__scopeScrollArea),r=!!(n.scrollbarX&amp;&amp;n.scrollbarY);return n.type!=="scroll"&amp;&amp;r?h.jsx(no,{...e,ref:t}):null});jt.displayName=Oe;var no=c.forwardRef((e,t)=&gt;{const{__scopeScrollArea:n,...r}=e,o=O(Oe,n),[a,s]=c.useState(0),[i,d]=c.useState(0),u=!!(a&amp;&amp;i);return X(o.scrollbarX,()=&gt;{var f;const l=((f=o.scrollbarX)==null?void 0:f.offsetHeight)||0;o.onCornerHeightChange(l),d(l)}),X(o.scrollbarY,()=&gt;{var f;const l=((f=o.scrollbarY)==null?void 0:f.offsetWidth)||0;o.onCornerWidthChange(l),s(l)}),u?h.jsx(I.div,{...r,ref:t,style:{width:a,height:i,position:"absolute",right:o.dir==="ltr"?0:void 0,left:o.dir==="rtl"?0:void 0,bottom:0,...e.style}}):null});function se(e){return e?parseInt(e,10):0}function kt(e,t){const n=e/t;return isNaN(n)?0:n}function fe(e){const t=kt(e.viewport,e.content),n=e.scrollbar.paddingStart+e.scrollbar.paddingEnd,r=(e.scrollbar.size-n)*t;return Math.max(r,18)}function ro(e,t,n,r="ltr"){const o=fe(n),a=o/2,s=t||a,i=o-s,d=n.scrollbar.paddingStart+s,u=n.scrollbar.size-n.scrollbar.paddingEnd-i,l=n.content-n.viewport,f=r==="ltr"?[0,l]:[l*-1,0];return Wt([d,u],f)(e)}function Ke(e,t,n="ltr"){const r=fe(t),o=t.scrollbar.paddingStart+t.scrollbar.paddingEnd,a=t.scrollbar.size-o,s=t.content-t.viewport,i=a-r,d=n==="ltr"?[0,s]:[s*-1,0],u=zr(e,d);return Wt([0,s],[0,i])(u)}function Wt(e,t){return n=&gt;{if(e[0]===e[1]||t[0]===t[1])return t[0];const r=(t[1]-t[0])/(e[1]-e[0]);return t[0]+r*(n-e[0])}}function Ut(e,t){return e&gt;0&amp;&amp;e&lt;t}var oo=(e,t=()=&gt;{})=&gt;{let n={left:e.scrollLeft,top:e.scrollTop},r=0;return function o(){const a={left:e.scrollLeft,top:e.scrollTop},s=n.left!==a.left,i=n.top!==a.top;(s||i)&amp;&amp;t(),n=a,r=window.requestAnimationFrame(o)}(),()=&gt;window.cancelAnimationFrame(r)};function ve(e,t){const n=_(e),r=c.useRef(0);return c.useEffect(()=&gt;()=&gt;window.clearTimeout(r.current),[]),c.useCallback(()=&gt;{window.clearTimeout(r.current),r.current=window.setTimeout(n,t)},[n,t])}function X(e,t){const n=_(t);G(()=&gt;{let r=0;if(e){const o=new ResizeObserver(()=&gt;{cancelAnimationFrame(r),r=window.requestAnimationFrame(n)});return o.observe(e),()=&gt;{window.cancelAnimationFrame(r),o.unobserve(e)}}},[e,n])}var _o=Dt,Oo=Ot,Mo=jt;function ao(e){const t=e+"CollectionProvider",[n,r]=Z(t),[o,a]=n(t,{collectionRef:{current:null},itemMap:new Map}),s=m=&gt;{const{scope:p,children:b}=m,w=B.useRef(null),S=B.useRef(new Map).current;return h.jsx(o,{scope:p,itemMap:S,collectionRef:w,children:b})};s.displayName=t;const i=e+"CollectionSlot",d=q(i),u=B.forwardRef((m,p)=&gt;{const{scope:b,children:w}=m,S=a(i,b),E=D(p,S.collectionRef);return h.jsx(d,{ref:E,children:w})});u.displayName=i;const l=e+"CollectionItemSlot",f="data-radix-collection-item",v=q(l),g=B.forwardRef((m,p)=&gt;{const{scope:b,children:w,...S}=m,E=B.useRef(null),R=D(p,E),A=a(l,b);return B.useEffect(()=&gt;(A.itemMap.set(E,{ref:E,...S}),()=&gt;void A.itemMap.delete(E))),h.jsx(v,{[f]:"",ref:R,children:w})});g.displayName=l;function y(m){const p=a(e+"CollectionConsumer",m);return B.useCallback(()=&gt;{const w=p.collectionRef.current;if(!w)return[];const S=Array.from(w.querySelectorAll(`[${f}]`));return Array.from(p.itemMap.values()).sort((A,C)=&gt;S.indexOf(A.ref.current)-S.indexOf(C.ref.current))},[p.collectionRef,p.itemMap])}return[{Provider:s,Slot:u,ItemSlot:g},y,r]}var we="rovingFocusGroup.onEntryFocus",co={bubbles:!1,cancelable:!0},Q="RovingFocusGroup",[xe,Bt,io]=ao(Q),[so,Vt]=Z(Q,[io]),[lo,uo]=so(Q),$t=c.forwardRef((e,t)=&gt;h.jsx(xe.Provider,{scope:e.__scopeRovingFocusGroup,children:h.jsx(xe.Slot,{scope:e.__scopeRovingFocusGroup,children:h.jsx(fo,{...e,ref:t})})}));$t.displayName=Q;var fo=c.forwardRef((e,t)=&gt;{const{__scopeRovingFocusGroup:n,orientation:r,loop:o=!1,dir:a,currentTabStopId:s,defaultCurrentTabStopId:i,onCurrentTabStopIdChange:d,onEntryFocus:u,preventScrollOnEntryFocus:l=!1,...f}=e,v=c.useRef(null),g=D(t,v),y=Ne(a),[m,p]=Pe({prop:s,defaultProp:i??null,onChange:d,caller:Q}),[b,w]=c.useState(!1),S=_(u),E=Bt(n),R=c.useRef(!1),[A,C]=c.useState(0);return c.useEffect(()=&gt;{const x=v.current;if(x)return x.addEventListener(we,S),()=&gt;x.removeEventListener(we,S)},[S]),h.jsx(lo,{scope:n,orientation:r,dir:y,loop:o,currentTabStopId:m,onItemFocus:c.useCallback(x=&gt;p(x),[p]),onItemShiftTab:c.useCallback(()=&gt;w(!0),[]),onFocusableItemAdd:c.useCallback(()=&gt;C(x=&gt;x+1),[]),onFocusableItemRemove:c.useCallback(()=&gt;C(x=&gt;x-1),[]),children:h.jsx(I.div,{tabIndex:b||A===0?-1:0,"data-orientation":r,...f,ref:g,style:{outline:"none",...e.style},onMouseDown:T(e.onMouseDown,()=&gt;{R.current=!0}),onFocus:T(e.onFocus,x=&gt;{const P=!R.current;if(x.target===x.currentTarget&amp;&amp;P&amp;&amp;!b){const N=new CustomEvent(we,co);if(x.currentTarget.dispatchEvent(N),!N.defaultPrevented){const L=E().filter(U=&gt;U.focusable),Le=L.find(U=&gt;U.active),rn=L.find(U=&gt;U.id===m),on=[Le,rn,...L].filter(Boolean).map(U=&gt;U.ref.current);Yt(on,l)}}R.current=!1}),onBlur:T(e.onBlur,()=&gt;w(!1))})})}),Ht="RovingFocusGroupItem",zt=c.forwardRef((e,t)=&gt;{const{__scopeRovingFocusGroup:n,focusable:r=!0,active:o=!1,tabStopId:a,children:s,...i}=e,d=K(),u=a||d,l=uo(Ht,n),f=l.currentTabStopId===u,v=Bt(n),{onFocusableItemAdd:g,onFocusableItemRemove:y,currentTabStopId:m}=l;return c.useEffect(()=&gt;{if(r)return g(),()=&gt;y()},[r,g,y]),h.jsx(xe.ItemSlot,{scope:n,id:u,focusable:r,active:o,children:h.jsx(I.span,{tabIndex:f?0:-1,"data-orientation":l.orientation,...i,ref:t,onMouseDown:T(e.onMouseDown,p=&gt;{r?l.onItemFocus(u):p.preventDefault()}),onFocus:T(e.onFocus,()=&gt;l.onItemFocus(u)),onKeyDown:T(e.onKeyDown,p=&gt;{if(p.key==="Tab"&amp;&amp;p.shiftKey){l.onItemShiftTab();return}if(p.target!==p.currentTarget)return;const b=ho(p,l.orientation,l.dir);if(b!==void 0){if(p.metaKey||p.ctrlKey||p.altKey||p.shiftKey)return;p.preventDefault();let S=v().filter(E=&gt;E.focusable).map(E=&gt;E.ref.current);if(b==="last")S.reverse();else if(b==="prev"||b==="next"){b==="prev"&amp;&amp;S.reverse();const E=S.indexOf(p.currentTarget);S=l.loop?po(S,E+1):S.slice(E+1)}setTimeout(()=&gt;Yt(S))}}),children:typeof s=="function"?s({isCurrentTabStop:f,hasTabStop:m!=null}):s})})});zt.displayName=Ht;var vo={ArrowLeft:"prev",ArrowUp:"prev",ArrowRight:"next",ArrowDown:"next",PageUp:"first",Home:"first",PageDown:"last",End:"last"};function mo(e,t){return t!=="rtl"?e:e==="ArrowLeft"?"ArrowRight":e==="ArrowRight"?"ArrowLeft":e}function ho(e,t,n){const r=mo(e.key,n);if(!(t==="vertical"&amp;&amp;["ArrowLeft","ArrowRight"].includes(r))&amp;&amp;!(t==="horizontal"&amp;&amp;["ArrowUp","ArrowDown"].includes(r)))return vo[r]}function Yt(e,t=!1){const n=document.activeElement;for(const r of e)if(r===n||(r.focus({preventScroll:t}),document.activeElement!==n))return}function po(e,t){return e.map((n,r)=&gt;e[(t+r)%e.length])}var go=$t,bo=zt,me="Tabs",[So]=Z(me,[Vt]),Gt=Vt(),[Eo,Me]=So(me),Xt=c.forwardRef((e,t)=&gt;{const{__scopeTabs:n,value:r,onValueChange:o,defaultValue:a,orientation:s="horizontal",dir:i,activationMode:d="automatic",...u}=e,l=Ne(i),[f,v]=Pe({prop:r,onChange:o,defaultProp:a??"",caller:me});return h.jsx(Eo,{scope:n,baseId:K(),value:f,onValueChange:v,orientation:s,dir:l,activationMode:d,children:h.jsx(I.div,{dir:l,"data-orientation":s,...u,ref:t})})});Xt.displayName=me;var Kt="TabsList",qt=c.forwardRef((e,t)=&gt;{const{__scopeTabs:n,loop:r=!0,...o}=e,a=Me(Kt,n),s=Gt(n);return h.jsx(go,{asChild:!0,...s,orientation:a.orientation,dir:a.dir,loop:r,children:h.jsx(I.div,{role:"tablist","aria-orientation":a.orientation,...o,ref:t})})});qt.displayName=Kt;var Zt="TabsTrigger",Qt=c.forwardRef((e,t)=&gt;{const{__scopeTabs:n,value:r,disabled:o=!1,...a}=e,s=Me(Zt,n),i=Gt(n),d=tn(s.baseId,r),u=nn(s.baseId,r),l=r===s.value;return h.jsx(bo,{asChild:!0,...i,focusable:!o,active:l,children:h.jsx(I.button,{type:"button",role:"tab","aria-selected":l,"aria-controls":u,"data-state":l?"active":"inactive","data-disabled":o?"":void 0,disabled:o,id:d,...a,ref:t,onMouseDown:T(e.onMouseDown,f=&gt;{!o&amp;&amp;f.button===0&amp;&amp;f.ctrlKey===!1?s.onValueChange(r):f.preventDefault()}),onKeyDown:T(e.onKeyDown,f=&gt;{[" ","Enter"].includes(f.key)&amp;&amp;s.onValueChange(r)}),onFocus:T(e.onFocus,()=&gt;{const f=s.activationMode!=="manual";!l&amp;&amp;!o&amp;&amp;f&amp;&amp;s.onValueChange(r)})})})});Qt.displayName=Zt;var Jt="TabsContent",en=c.forwardRef((e,t)=&gt;{const{__scopeTabs:n,value:r,forceMount:o,children:a,...s}=e,i=Me(Jt,n),d=tn(i.baseId,r),u=nn(i.baseId,r),l=r===i.value,f=c.useRef(l);return c.useEffect(()=&gt;{const v=requestAnimationFrame(()=&gt;f.current=!1);return()=&gt;cancelAnimationFrame(v)},[]),h.jsx(k,{present:o||l,children:({present:v})=&gt;h.jsx(I.div,{"data-state":l?"active":"inactive","data-orientation":i.orientation,role:"tabpanel","aria-labelledby":d,hidden:!v,id:u,tabIndex:0,...s,ref:t,style:{...e.style,animationDuration:f.current?"0s":void 0},children:v&amp;&amp;a})})});en.displayName=Jt;function tn(e,t){return`${e}-trigger-${t}`}function nn(e,t){return`${e}-content-${t}`}var Lo=Xt,Fo=qt,jo=Qt,ko=en;export{Ao as C,No as D,Fo as L,To as O,I as P,xo as R,Co as S,Io as T,Oo as V,Po as a,Do as b,_o as c,Mo as d,Xr as e,eo as f,Z as g,K as h,T as i,h as j,k,D as l,G as m,jo as n,ko as o,Lo as p,Pe as u};
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>from</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>
+ </td>
+	</tr>
+</tbody></table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a href="file:///C:/Users/dhana/2025-10-26-ZAP-Report-.html#alert-type-5">Re-examine Cache-control Directives</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://doctor.dev-cloudcaresindia.com/</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tbody><tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/04-Authentication_Testing/06-Testing_for_Browser_Cache_Weaknesses">WSTG-v42-ATHN-06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/525.html">CWE-525</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (310 bytes)</summary>
+				
+				<pre><code>GET https://doctor.dev-cloudcaresindia.com/ HTTP/1.1
+host: doctor.dev-cloudcaresindia.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://doctor.dev-cloudcaresindia.com
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (327 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Length: 622
+Content-Type: text/html; charset=utf-8
+Etag: "1761284159473769"
+Last-Modified: Fri, 24 Oct 2025 05:35:59 GMT
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Date: Sun, 26 Oct 2025 03:36:28 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (622 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;link rel="icon" type="image/svg+xml" href="/vite.svg" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;title&gt;CloudCare - Doctor Portal&lt;/title&gt;
+    &lt;script type="module" crossorigin src="/assets/index-D96lzl7i.js"&gt;&lt;/script&gt;
+    &lt;link rel="modulepreload" crossorigin href="/assets/vendor-Cob1R1W1.js"&gt;
+    &lt;link rel="modulepreload" crossorigin href="/assets/ui-ogDVqF8J.js"&gt;
+    &lt;link rel="stylesheet" crossorigin href="/assets/index-BVMy-eXc.css"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="root"&gt;&lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>cache-control</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>For secure content, ensure the cache-control HTTP header is set with "no-cache, no-store, must-revalidate". If an asset should be cached consider setting the directives "public, max-age, immutable".</p>
+ </td>
+	</tr>
+</tbody></table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+						
+						
+					</ol>
+				</li>
+				  
+			</ol>
+		</section>
+
+		<section id="appendix" class="appendix">
+			<h2>Appendix</h2>
+
+			<section id="alert-types" class="alert-types">
+				<h3>Alert Types</h3>
+				<p class="alert-types-intro">This section contains additional information on the types of alerts in the report.</p>
+				<ol>
+					<li id="alert-type-0">
+						<h4>Content Security Policy (CSP) Header Not Set</h4>
+						<table class="alert-types-table">
+							<tbody><tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a href="https://www.zaproxy.org/docs/alerts/10038/">Content Security Policy (CSP) Header Not Set</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP">https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</a></li>
+										<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</a></li>
+										<li><a href="https://www.w3.org/TR/CSP/">https://www.w3.org/TR/CSP/</a></li>
+										<li><a href="https://w3c.github.io/webappsec-csp/">https://w3c.github.io/webappsec-csp/</a></li>
+										<li><a href="https://web.dev/articles/csp">https://web.dev/articles/csp</a></li>
+										<li><a href="https://caniuse.com/#feat=contentsecuritypolicy">https://caniuse.com/#feat=contentsecuritypolicy</a></li>
+										<li><a href="https://content-security-policy.com/">https://content-security-policy.com/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</tbody></table>
+					</li>
+					<li id="alert-type-1">
+						<h4>Missing Anti-clickjacking Header</h4>
+						<table class="alert-types-table">
+							<tbody><tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a href="https://www.zaproxy.org/docs/alerts/10020/">Anti-clickjacking Header</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a href="https://cwe.mitre.org/data/definitions/1021.html">1021</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options">https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</a></li>
+									</ol>
+								</td>
+							</tr>
+						</tbody></table>
+					</li>
+					<li id="alert-type-2">
+						<h4>X-Content-Type-Options Header Missing</h4>
+						<table class="alert-types-table">
+							<tbody><tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a href="https://www.zaproxy.org/docs/alerts/10021/">X-Content-Type-Options Header Missing</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)">https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</a></li>
+										<li><a href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a></li>
+									</ol>
+								</td>
+							</tr>
+						</tbody></table>
+					</li>
+					<li id="alert-type-3">
+						<h4>Information Disclosure - Suspicious Comments</h4>
+						<table class="alert-types-table">
+							<tbody><tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a href="https://www.zaproxy.org/docs/alerts/10027/">Information Disclosure - Suspicious Comments</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a href="https://cwe.mitre.org/data/definitions/615.html">615</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							
+						</tbody></table>
+					</li>
+					<li id="alert-type-4">
+						<h4>Modern Web Application</h4>
+						<table class="alert-types-table">
+							<tbody><tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a href="https://www.zaproxy.org/docs/alerts/10109/">Modern Web Application</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							
+						</tbody></table>
+					</li>
+					<li id="alert-type-5">
+						<h4>Re-examine Cache-control Directives</h4>
+						<table class="alert-types-table">
+							<tbody><tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a href="https://www.zaproxy.org/docs/alerts/10015/">Re-examine Cache-control Directives</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a href="https://cwe.mitre.org/data/definitions/525.html">525</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching">https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</a></li>
+										<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control">https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</a></li>
+										<li><a href="https://grayduck.mn/2021/09/13/cache-control-recommendations/">https://grayduck.mn/2021/09/13/cache-control-recommendations/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</tbody></table>
+					</li>
+					<li id="alert-type-6">
+						<h4>User Agent Fuzzer</h4>
+						<table class="alert-types-table">
+							<tbody><tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a href="https://www.zaproxy.org/docs/alerts/10104/">User Agent Fuzzer</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a href="https://owasp.org/wstg">https://owasp.org/wstg</a></li>
+									</ol>
+								</td>
+							</tr>
+						</tbody></table>
+					</li>
+				</ol>
+			</section>
+		</section>
+		 
+	</main>
+
+
+
+
+
+</body></html>
